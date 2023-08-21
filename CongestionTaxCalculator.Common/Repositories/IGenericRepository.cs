@@ -12,7 +12,6 @@ public interface IGenericRepository<TEntity> where TEntity : class
 
     IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
 
-    // This method was not in the videos, but I thought it would be useful to add.
     TEntity? SingleOrDefault(Expression<Func<TEntity, bool>> predicate);
 
     bool Any(Expression<Func<TEntity, bool>> predicate);
@@ -33,7 +32,6 @@ public interface IGenericRepository<TEntity> where TEntity : class
 
     Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
 
-    // This method was not in the videos, but I thought it would be useful to add.
     Task<TEntity?> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
 
     Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate);
