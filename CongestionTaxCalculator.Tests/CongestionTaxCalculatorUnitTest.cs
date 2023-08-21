@@ -10,7 +10,7 @@ using CongestionTaxCalculator.Infrastructure.DbContexts;
 
 namespace CongestionTaxCalculator.Tests
 {
-    public class Tests
+    public class CongestionTaxCalculatorTests
     {
         internal IServiceProvider provider;
         private ICongestionTaxRuleService _congestionTaxRuleService;
