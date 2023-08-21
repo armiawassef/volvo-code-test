@@ -68,7 +68,7 @@ The project follows a structured organization:
 
 ## API Endpoints
 
-- `GET /api/CongestionTaxCalculator/calculate-tax`: Calculate congestion tax based on provided criteria.
+- `POST /api/CongestionTaxCalculator/calculate-tax`: Calculate congestion tax based on provided criteria.
 
 ## Dependencies
 
