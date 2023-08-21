@@ -1,10 +1,6 @@
 ﻿using CongestionTaxCalculator.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.InMemory.ValueGeneration.Internal;
-using Microsoft.Extensions.Configuration;
 using Nager.Date;
-using System.Reflection.Emit;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CongestionTaxCalculator.Infrastructure.DbContexts;
 
