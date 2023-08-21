@@ -83,11 +83,3 @@ The project relies on several key technologies and libraries, including:
 - Repository Design Pattern
 
 Please refer to the project's `*.csproj` files for a complete list of dependencies.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, please follow the typical fork and pull request workflow.
-
----
-
-Thank you for using the Congestion Tax Calculator C# project. If you have any questions or encounter any issues, please don't hesitate to reach out to our team. Happy coding!
