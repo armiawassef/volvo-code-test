@@ -19,7 +19,7 @@ Welcome to the Congestion Tax Calculator project! This application is designed t
 
 ## Introduction
 
-The Congestion Tax Calculator project is developed to provide a solution for calculating congestion taxes based on certain criteria and rules. It utilizes a web API to expose the tax calculation functionality, follows Domain-Driven Design (DDD) principles to maintain a clear separation of concerns, and uses Inversion of Control (IoC) for efficient dependency management. The project's data storage is handled using Entity Framework Code First, allowing seamless interaction with a database.
+The Congestion Tax Calculator project is developed to provide a solution for calculating congestion taxes based on certain criteria and rules. It utilizes a web API to expose the tax calculation functionality, follows Domain-Driven Design (DDD) principles to maintain a clear separation of concerns, and uses Inversion of Control (IoC) for efficient dependency management. The project's data storage is handled using Entity Framework Code First, allowing seamless interaction with a SQLLite database.
 
 ## Features
 
